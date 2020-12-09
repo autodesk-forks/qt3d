@@ -4,6 +4,6 @@ TEMPLATE = subdirs
     return()
 
 QT_FOR_CONFIG += 3dcore-private
-qtConfig(assimp):qtConfig(commandlineparser): {
+qtConfig(qt3d-assimp):qtConfig(commandlineparser): {
     SUBDIRS += qgltf
 }
